@@ -1,0 +1,60 @@
+.wrapper{
+    width: 70%;
+    margin: auto
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.menu li{
+    float: left;
+    padding: 8px;
+    list-style: none;
+}
+.menu li a{
+text-decoration: none;
+color: #a82d49;
+font-size: 20px
+}
+.good{
+    background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/foodera/c84cd26a-3_0000001hc0mv00003k000.jpg);
+     background-repeat: no-repeat;
+}
+.text{
+    padding: 130px 300px;
+}
+.text h1{
+    color: rgb(67, 18, 29);
+    font-size: 50px
+}
+.text h3{
+    color: rgb(85, 85, 85);
+    font-size: 18px;
+    padding-bottom: 30px
+}
+.order{
+    border: 10px solid #fff;
+    background-color: #a82d49;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 25px
+}
+.learn{
+    border: 2px solid #a82d49;
+    text-decoration: none;
+    color:black;
+    padding: 16px 25px;
+}
+.logo2{
+    padding: 25px
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white
+}
+.text-logo{
+    float: left
+}
